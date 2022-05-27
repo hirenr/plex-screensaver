@@ -2,8 +2,10 @@ html,
 body {
   padding: 0;
   margin: 0;
+  /* height:400px; */
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
 }
 
 a {
@@ -13,4 +15,12 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+
+.carousel-root,
+.carousel,
+.carousel > .slider-wrapper,
+.carousel > .slider-wrapper > .slider {
+  height: 100%;
 }
